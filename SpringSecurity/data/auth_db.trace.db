@@ -1,0 +1,61 @@
+2024-08-21 11:17:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM USER USER 
+USER[*]"; SQL statement:
+SELECT * FROM USER USER 
+USER [42000-200]
+2024-08-21 11:17:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM USER USER 
+USER[*]"; SQL statement:
+SELECT * FROM USER USER 
+USER [42000-200]
+2024-08-21 11:17:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM USER USER 
+USER[*]"; SQL statement:
+SELECT * FROM USER USER 
+USER [42000-200]
+2024-08-21 11:23:36 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SADA[*]
+D"; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+sada
+d [42001-200]
+2024-08-21 11:23:36 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SADA[*]
+D"; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+sada
+d [42001-200]
+2024-08-21 11:23:36 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SADA[*]
+D"; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+sada
+d [42001-200]
+2024-08-21 11:23:37 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SADA[*]
+D"; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+sada
+d [42001-200]
+2024-08-21 11:23:37 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SADA[*]
+D"; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+sada
+d [42001-200]
+2024-08-21 11:24:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "11[*]"; SQL statement:
+11 [42000-200]
+2024-08-21 11:24:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "11[*]"; SQL statement:
+11 [42000-200]
+2024-08-21 11:24:01 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "11[*]"; SQL statement:
+11 [42000-200]
+2024-08-21 11:24:03 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "11[*]"; SQL statement:
+11 [42000-200]
+2024-08-21 11:24:04 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "11[*]"; SQL statement:
+11 [42000-200]
+2024-08-21 11:24:06 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "11[*]"; SQL statement:
+11 [42000-200]
+2024-08-21 11:25:55 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO USER ( *[*], DD, DDD,DD)"; expected "identifier"; SQL statement:
+INSERT INTO USER ( *, dd, ddd,dd) [42001-200]

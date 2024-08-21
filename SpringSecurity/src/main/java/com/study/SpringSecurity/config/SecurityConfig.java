@@ -26,10 +26,14 @@ public class SecurityConfig  extends WebSecurityConfigurerAdapter {
         http.cors();    //크로스오리진 사용하겠다
         http.authorizeRequests()
 //                .antMatchers("/signin", "/signup")
-                .antMatchers("/auth/**")
+                .antMatchers("/auth/**", "/h2-console/**", "/test/**")
                 .permitAll()
                 .anyRequest()
-                .authenticated();
+                .authenticated()
+                .and()
+                .headers()
+                .frameOptions()
+                .disable();
 
     }
 }

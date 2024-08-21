@@ -1,13 +1,15 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:auth_db
+    url: jdbc:h2:file:./data/auth_db;MODE=MySQL
     driver-class-name: org.h2.Driver
     username: sa
     password:
 
   jpa:
     hibernate:
+#      ddl-auto: create 데이터테이블 초기화시키고
       ddl-auto: update
+#      ddl-auto: create
     show-sql: true
 
   h2:
