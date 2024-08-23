@@ -260,3 +260,6 @@ Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/sqf/secur
 	at org.h2.mvstore.FileStore.open(FileStore.java:172)
 	at org.h2.mvstore.MVStore.<init>(MVStore.java:381)
 	... 67 more
+2024-08-23 10:04:23 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "USER[*]"; expected "UPDATE, USE"; SQL statement:
+USER [42001-200]

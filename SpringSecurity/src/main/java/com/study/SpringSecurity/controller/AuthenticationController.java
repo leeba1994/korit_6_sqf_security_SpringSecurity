@@ -40,7 +40,6 @@ public class AuthenticationController {
     public ResponseEntity<?> signin(
             @Valid @RequestBody ReqSigninDto dto,
             BeanPropertyBindingResult bindingResult) {
-        signinService.signin(dto);
-        return ResponseEntity.ok().body(null);
+        return ResponseEntity.ok().body(signinService.signin(dto));
     }
 }
